@@ -1,0 +1,58 @@
+body {
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+body > nav {
+  background-color: #111111;
+}
+
+.container {
+  background-color: yellow;
+}
+
+header {
+  background-image: url(../images/headerback.png);
+  display: flex;
+  height: 150px;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 40px;
+  line-height: 60px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.github {
+  width: 1;
+}
+
+.contact {
+  width: 2;
+  flex-basis: 2;
+  flex-grow: 3;
+}
+
+.odyssey {
+  width: 1;
+}
+
+footer > input {
+  width: 200px;
+  height: 20px;
+}
+
+footer > img {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+}
