@@ -3,5 +3,5 @@
 
 setInterval(function(){
 //  $('div class="clock"').write('<div class="clock">');
-  document.getElementById(myclock).write('test');
+  document.getElementById("myclock").innerHTML = new Date().getHours()+":"+new Date().getMinutes()+":"+new Date().getSeconds();
 }, 1000);
