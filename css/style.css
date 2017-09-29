@@ -5,16 +5,18 @@ body {
   color: black;
 }
 
-body nav {
-  background-color: black;
-}
-
 .onebigcolumn {
+  display: flex;
+
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
 
   text-align: center;
+}
+
+nav {
+  background-color: black;
 }
 
 .clock {
