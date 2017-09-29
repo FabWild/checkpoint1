@@ -1,13 +1,28 @@
 body {
   font-style: normal;
   font-family: sans-serif;
+  font-size: 14px;
+  color: black;
 }
 
-body > nav {
-  background-color: #111111;
+body nav {
+  background-color: black;
 }
 
-.container {
+.clock {
+  position: absolute;
+  right: 0px;
+  top : 0px;
+
+  width: 100px;
+  height: 30px;
+
+  border: 2px;
+  border-color: white;
+}
+
+
+.onebigcolumn {
   background-color: yellow;
 }
 
@@ -46,12 +61,12 @@ footer {
   width: 1;
 }
 
-footer > input {
+footer input {
   width: 200px;
   height: 20px;
 }
 
-footer > img {
+footer img {
   background-color: white;
   width: 20px;
   height: 20px;
